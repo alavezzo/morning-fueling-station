@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
         console.log(err);
         res.status(500).json(err)
     })
-})
+});
 
 router.post('/', (req, res) => {
     Preferences.create({
@@ -31,4 +31,4 @@ router.post('/', (req, res) => {
         console.log(err);
         res.status(500).json(err)
     })
-})
+});
