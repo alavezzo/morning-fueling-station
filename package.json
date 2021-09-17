@@ -1,0 +1,42 @@
+{
+  "name": "morning-fueling-station",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds.index.js",
+    "build": "postcss .src/styles.css -o ./public/stylsheets/styles.css",
+    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/stylesheets/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alavezzo/morning-fueling-station.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alavezzo/morning-fueling-station/issues"
+  },
+  "homepage": "https://github.com/alavezzo/morning-fueling-station#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.4",
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.0",
+    "postcss-cli": "^8.3.1",
+    "sequelize": "^6.6.5",
+    "tailwindcss": "^2.2.15"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "jest": "^27.2.0",
+    "nodemon": "^2.0.12"
+  }
+}

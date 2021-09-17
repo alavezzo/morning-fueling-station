@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS morning-ritual;
+
+CREATE DATABASE IF EXISTS morning-ritual;
